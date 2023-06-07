@@ -57,7 +57,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 
-from skimage.feature import register_translation
+import skimage.registration._phase_cross_correlation as register_translation
 
 from multiprocessing import Pool, cpu_count
 
